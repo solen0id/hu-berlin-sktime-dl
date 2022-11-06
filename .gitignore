@@ -130,4 +130,6 @@ dmypy.json
 
 # large dataset
 */dataset/*
+dataset/
+dataset/*
 dataset.json
