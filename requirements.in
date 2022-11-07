@@ -1,2 +1,2 @@
-git+https://github.com/sktime/sktime-dl@b565b7499f58f43da7314f1bf26eccce94e88134
+git+https://github.com/sktime/sktime-dl@7437722b0a3dd0338747c2dce8fed151c12baec2
 tensorflow-probability
