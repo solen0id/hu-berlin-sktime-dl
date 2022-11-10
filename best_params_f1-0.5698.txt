@@ -1,0 +1,1 @@
+{"attention": false, "batch_size": 128, "lstm_size": 5}
