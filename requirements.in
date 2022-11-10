@@ -1,2 +1,3 @@
-git+https://github.com/sktime/sktime-dl@7437722b0a3dd0338747c2dce8fed151c12baec2
+git+https://github.com/solen0id/sktime@e2d1434a45398692ee9f3842324d5253e74116d8
+tensorflow-cpu
 tensorflow-probability
