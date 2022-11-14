@@ -133,3 +133,9 @@ dmypy.json
 dataset/
 dataset/*
 dataset.json
+
+.DS_Store
+
+tensorboard/
+tensorboard/*
+

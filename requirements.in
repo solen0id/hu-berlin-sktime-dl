@@ -1,3 +1,5 @@
-git+https://github.com/solen0id/sktime@e2d1434a45398692ee9f3842324d5253e74116d8
-tensorflow-cpu
+git+https://github.com/solen0id/sktime@9becff0bdaa48756c0b7dc59a1dd9e441985eaf2
+# tensorflow
+tensorflow-macos
+tensorflow-metal
 tensorflow-probability
