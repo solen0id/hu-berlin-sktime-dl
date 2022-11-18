@@ -138,5 +138,7 @@ dataset.json
 
 tensorboard/
 tensorboard/*
-
+predictions/*
 best_model*.zip
+
+
