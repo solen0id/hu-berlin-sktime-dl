@@ -4,15 +4,13 @@
 #
 #    pip-compile requirements.in
 #
-absl-py==0.15.0
+absl-py==1.3.0
     # via
     #   tensorboard
     #   tensorflow
     #   tensorflow-probability
 astunparse==1.6.3
     # via tensorflow
-cached-property==1.5.2
-    # via h5py
 cachetools==5.2.0
     # via google-auth
 certifi==2022.9.24
@@ -21,21 +19,19 @@ charset-normalizer==2.1.1
     # via requests
 cloudpickle==2.2.0
     # via tensorflow-probability
-cycler==0.11.0
-    # via matplotlib
 decorator==5.1.1
     # via tensorflow-probability
+deprecated==1.2.13
+    # via sktime
 dm-tree==0.1.7
     # via tensorflow-probability
-flatbuffers==1.12
+flatbuffers==22.10.26
     # via tensorflow
-fonttools==4.38.0
-    # via matplotlib
 gast==0.4.0
     # via
     #   tensorflow
     #   tensorflow-probability
-google-auth==2.14.0
+google-auth==2.14.1
     # via
     #   google-auth-oauthlib
     #   tensorboard
@@ -43,14 +39,12 @@ google-auth-oauthlib==0.4.6
     # via tensorboard
 google-pasta==0.2.0
     # via tensorflow
-grpcio==1.34.1
+grpcio==1.50.0
     # via
     #   tensorboard
     #   tensorflow
-h5py==3.1.0
-    # via
-    #   sktime-dl
-    #   tensorflow
+h5py==3.7.0
+    # via tensorflow
 idna==3.4
     # via requests
 importlib-metadata==5.0.0
@@ -59,41 +53,30 @@ importlib-metadata==5.0.0
     #   numba
 joblib==1.2.0
     # via scikit-learn
-keras==2.5.0.rc0
-    # via sktime-dl
-keras-nightly==2.5.0.dev2021032900
+keras==2.10.0
     # via tensorflow
 keras-preprocessing==1.1.2
     # via tensorflow
-keras-self-attention==0.51.0
-    # via sktime-dl
-kiwisolver==1.4.4
-    # via matplotlib
+libclang==14.0.6
+    # via tensorflow
 llvmlite==0.39.1
     # via numba
 markdown==3.4.1
     # via tensorboard
 markupsafe==2.1.1
     # via werkzeug
-matplotlib==3.5.3
-    # via
-    #   seaborn
-    #   sktime-dl
 numba==0.56.4
     # via sktime
-numpy==1.19.5
+numpy==1.21.6
     # via
     #   h5py
     #   keras-preprocessing
-    #   keras-self-attention
-    #   matplotlib
     #   numba
     #   opt-einsum
     #   pandas
     #   patsy
     #   scikit-learn
     #   scipy
-    #   seaborn
     #   sktime
     #   statsmodels
     #   tensorboard
@@ -105,18 +88,14 @@ opt-einsum==3.3.0
     # via tensorflow
 packaging==21.3
     # via
-    #   matplotlib
     #   statsmodels
-    #   tensorflow-addons
+    #   tensorflow
 pandas==1.3.5
     # via
-    #   seaborn
     #   sktime
     #   statsmodels
 patsy==0.5.3
     # via statsmodels
-pillow==9.3.0
-    # via matplotlib
 protobuf==3.19.6
     # via
     #   tensorboard
@@ -128,13 +107,9 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
     # via google-auth
 pyparsing==3.0.9
-    # via
-    #   matplotlib
-    #   packaging
+    # via packaging
 python-dateutil==2.8.2
-    # via
-    #   matplotlib
-    #   pandas
+    # via pandas
 pytz==2022.6
     # via pandas
 requests==2.28.1
@@ -150,12 +125,10 @@ scikit-learn==1.0.2
 scipy==1.7.3
     # via
     #   scikit-learn
+    #   sktime
     #   statsmodels
-seaborn==0.12.1
-    # via sktime-dl
-six==1.15.0
+six==1.16.0
     # via
-    #   absl-py
     #   astunparse
     #   google-auth
     #   google-pasta
@@ -165,9 +138,7 @@ six==1.15.0
     #   python-dateutil
     #   tensorflow
     #   tensorflow-probability
-sktime==0.7.0
-    # via sktime-dl
-sktime-dl @ git+https://github.com/sktime/sktime-dl@b565b7499f58f43da7314f1bf26eccce94e88134
+sktime @ git+https://github.com/solen0id/sktime@073926688dc2c88038937c8b2625fa7ee8925c80
     # via -r requirements.in
 statsmodels==0.13.5
     # via sktime
@@ -177,38 +148,34 @@ tensorboard-data-server==0.6.1
     # via tensorboard
 tensorboard-plugin-wit==1.8.1
     # via tensorboard
-tensorflow==2.5.0
-    # via sktime-dl
-tensorflow-addons==0.18.0
-    # via sktime-dl
-tensorflow-estimator==2.5.0
+tensorflow==2.10.0
+    # via -r requirements.in
+tensorflow-estimator==2.10.0
+    # via tensorflow
+tensorflow-io-gcs-filesystem==0.27.0
     # via tensorflow
 tensorflow-probability==0.18.0
     # via -r requirements.in
-termcolor==1.1.0
+termcolor==2.1.0
     # via tensorflow
 threadpoolctl==3.1.0
     # via scikit-learn
-typeguard==2.13.3
-    # via tensorflow-addons
-typing-extensions==3.7.4.3
+typing-extensions==4.4.0
     # via
     #   importlib-metadata
-    #   kiwisolver
-    #   seaborn
     #   tensorflow
 urllib3==1.26.12
     # via requests
 werkzeug==2.2.2
     # via tensorboard
-wheel==0.38.2
+wheel==0.38.4
     # via
     #   astunparse
-    #   sktime
     #   tensorboard
+wrapt==1.14.1
+    # via
+    #   deprecated
     #   tensorflow
-wrapt==1.12.1
-    # via tensorflow
 zipp==3.10.0
     # via importlib-metadata
 
