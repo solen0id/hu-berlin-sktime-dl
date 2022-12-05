@@ -1,4 +1,4 @@
-git+https://github.com/solen0id/sktime@073926688dc2c88038937c8b2625fa7ee8925c80
+git+https://github.com/solen0id/sktime@770fb38be5e74587906f55132bf7b913a2590687
 tensorflow-macos
 tensorflow-metal
 tensorflow-probability
