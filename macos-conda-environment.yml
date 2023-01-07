@@ -1,0 +1,19 @@
+name: se-algo
+channels:
+  - defaults
+  - apple
+dependencies:
+  - python=3.9
+  - pip
+  - tensorflow-deps==2.9.*
+  - pip:
+      - tensorflow-macos==2.9.*
+      - tensorflow-metal==0.5.*
+      - sktime
+      - scikit-learn
+      - pandas
+      - numba
+      - matplotlib
+      - ipykernel
+      - jupyter
+      - black
