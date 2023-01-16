@@ -1,2 +1,3 @@
-sktime
-tensorflow-probability
+git+https://github.com/solen0id/sktime@mlstm-fcn-with-dilation#egg=sktime
+tensorflow==2.9.*
+tensorflow-probability==0.17.*
